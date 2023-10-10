@@ -122,6 +122,15 @@ textarea{
     font-size: 1.2rem;
 }
 
+.news-info-container button{
+    cursor: pointer;
+}
+
+.news-info-container button:hover{
+    background-color: #bdc0c6;
+    transition: background-color .5s;
+}
+
 .image-pick-btn{
     border: none;
     background-color: transparent;
@@ -172,7 +181,7 @@ textarea{
 }
 
 .categories{
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .action-container *{
