@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhbar Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <div class="container">
+            <div class="news-info-container">
+                <h2 class="admin-panel-title">معلومات خبر جدید</h2>
+                <form action="">
+                    <label for="title">عنوان خبر</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <label for="news-text">متن خبر</label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <div class="image-container">
+                        <button class="image-pick-btn">انتخاب تصویر</button>
+                    </div>
+                    <br>
+                    <div class="action-container">
+                        <button>نشر خبر</button>
+                        <select class="categories">
+                            <option value="اقتصادی">اقتصادی</option>
+                            <option value="ورزشی">ورزشی</option>
+                            <option value="سیاسی">سیاسی</option>
+                            <option value="فرهنګی">فرهنګی</option>
+                            <option value="تکنالوژی">تکنالوژی</option>
+                            <option value="صحی">صحی</option>
+                            <option value="هنری">هنری</option>
+                            <option value="محیط زیست">محیط زیست</option>
+                            <option value="حوادث جرمی">حوادث جرمی</option>
+                            <option value="اموزشی">اموزشی</option>
+                        </select>
+                        <input class="prediction-result" type="text" placeholder="نتیجه" readonly>
+                        <button>تشخیص خبر</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
